@@ -27,7 +27,7 @@ Promise.any(promises)
     // Get the output div element
     const outputDiv = document.getElementById('output');
     // Display the result in the output div
-    outputDiv.textContent = `Resolved with time: ${result / 1000} seconds`;
+    outputDiv.textContent = `Resolved with time: ${result} seconds`;
   })
   .catch((error) => {
     console.error('Error:', error);
